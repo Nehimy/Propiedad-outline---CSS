@@ -1,11 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 /*
    El valor border-box en el box-sizing hace que el padding y el border pasen a formar parte
    del cálculo del ancho de la caja.
  */
 
 *{
-  margin: 0px;
+  /* margin: 0px; */
   padding: 0px;
   box-sizing: border-box;
 }
 
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  background: #fd75db;
+  font-weight: 800;
+  font-size: large;
+}
+
+h1 {
+  color: #fdd58a;
+}
+
+.form {
+    display: grid;
+    gap: 10px;
+    width: 300px;
+
+    border-radius: 5px;
+    padding: 20px 10px;
+    justify-content: center;
+    text-align: center;
+    background: white;
+    justify-self: center;
+}
+
+.Button {
+    background: #ff53a3;
+    color: white;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 800;
+    justify-self: right;
+    width: 90px;
+}
+
+.input-1 {
+    outline: 3px solid #ff53a3;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.input-2 {
+    border: 3px solid #ff53a3;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.input-3 {
+    border: 3px solid #fdd58a;
+    outline: 3px solid #ff53a3;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+p {
+    color: white;
+    outline: thick double #fff00a;
+    outline: dashed thick #fff00a;
+    padding: 3px;
+}
+
+
+p:hover {
+    outline: 3px solid #fdd58a;
+
+}
